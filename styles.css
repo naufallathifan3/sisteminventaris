@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user {
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border-radius: 4px;
+}
+
+.navbar-link:hover {
+    background-color: #c82333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+/* Search bar styles */
+.search-container {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#searchBar {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button.edit {
+    background-color: #ffc107;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+.rekap-link, .back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+.rekap-link:hover, .back-link:hover {
+    background-color: #0056b3;
+}
+button.edit {
+    background-color: #ffc107;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+.rekap-link, .back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+.rekap-link:hover, .back-link:hover {
+    background-color: #0056b3;
+}
+.logout-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+}
+
+.logout-link:hover {
+    background-color: #c82333;
+}

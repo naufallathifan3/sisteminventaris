@@ -1,0 +1,49 @@
+<?php
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.html");
+    exit();
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekap Inventaris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <span class="navbar-brand">Sistem Inventaris</span>
+            <div class="navbar-right">
+                <span class="navbar-user">Admin <?php echo $_SESSION['admin']; ?></span>
+                <a href="logout.php" class="navbar-link">Logout</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Rekap Inventaris</h1>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search for items...">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="rekapList">
+                <!-- Rekap items will be loaded here dynamically -->
+            </tbody>
+        </table>
+        <a href="index.html" class="back-link">Back to Inventory System</a>
+    </div>
+    
+    <script src="rekap.js"></script>
+</body>
+</html>
