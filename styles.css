@@ -6,7 +6,7 @@ body {
 }
 /* Navbar styles */
 .navbar {
-    background-color: #333;
+    background-color: #5A639C;
     color: white;
     padding: 10px;
 }
@@ -190,13 +190,13 @@ button.delete:hover {
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #5A639C;
     color: white;
     border-radius: 4px;
 }
 
 .rekap-link:hover, .back-link:hover {
-    background-color: #0056b3;
+    background-color: #9B86BD;
 }
 .logout-link {
     display: block;
